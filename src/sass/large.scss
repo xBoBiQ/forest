@@ -1,0 +1,98 @@
+@import "./colors.scss";
+
+@media (min-width: 992px) {
+	.nav {
+		&__mobile {
+			display: none;
+		}
+
+		&__desktop {
+			display: flex;
+		}
+
+		&__box {
+			display: flex;
+			// justify-content: right;
+		}
+
+		// &__box:first-child {
+		// justify-content: left;
+		// }
+
+		&__logo {
+			padding: 0.5em 0.9em;
+		}
+
+		&__link {
+			display: grid;
+			padding: 1.3em 0.9em;
+			margin-bottom: 0;
+			font-size: 2.1rem;
+		}
+	}
+
+	.header {
+		margin-top: 8.02rem;
+	}
+
+	.invite__heading {
+		padding: 1em 5em;
+	}
+
+	.contact {
+		margin-top: 8rem;
+	}
+
+	.info {
+		position: relative;
+
+		&__hero-img {
+			background-image: url('../img/call-big.jpg'
+		);
+		}
+	}
+
+	.contact {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.info-contact {
+		position: absolute;
+		right: 0;
+		max-width: 600px;
+	}
+	
+	.form {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 0px;
+
+		&__box {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			padding: 0 2em;
+		}
+
+		&__message-small {
+			display: none;
+		}
+		
+		&__message-large {
+			display: flex;
+			height: 100%;
+		}
+	}
+
+	.form-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		padding: 14em 0;
+		margin: 0;
+		max-width: 600px;
+		
+	}	
+}

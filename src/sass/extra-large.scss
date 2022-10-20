@@ -1,0 +1,41 @@
+@import "./colors.scss";
+
+@media (min-width: 1220px) {
+	.nav {
+		&__logo {
+			font-size: 3.5rem;
+		}
+
+		&__link {
+			font-size: 2.1rem;
+		}
+	}
+
+	.hero-img {
+		background-image: url("../img/jungle.jpg");
+	}
+
+	.invite {
+		&__hero-img {
+			background-image: url("../img/girl.jpg");
+		}
+	}
+}
+
+@media (min-width: 1250px) {
+	.section-padding {
+		padding: 0;
+	}
+
+	.nav {
+		&__logo {
+			padding-left: 0;
+		}
+	}
+
+	.footer {
+		&__container {
+			grid-template-columns: 3fr 1fr 1fr 1fr;
+		}
+	}
+}

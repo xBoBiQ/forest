@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="./dist/css/extra-large.min.css" />
 	</head>
 	<body>
-		<nav class="nav wrapper ">
+		<nav class="nav wrapper">
 			<div class="nav__mobile">
 				<div class="nav__box">
 					<a class="nav__logo" href="#"
@@ -32,40 +32,147 @@
 				<div class="nav__hamburger">
 					<i class="fa-solid fa-bars nav__btn"></i>
 				</div>
-				<div class="nav__menu ">
-					
-						<a class="nav__link nav-link" href="#header">Home</a>
-
-						<a class="nav__link nav-link" href="#about-us">O nas</a>
-
-						<a class="nav__link nav-link" href="#offer">Oferta</a>
-
-						<a class="nav__link nav-link" href="#">Kontakt</a>
-
-				</div>
-			</div>
-
-			<div class="nav__desktop">
-				<div class="nav__box">
-					<a class="nav__logo" href="#"
-						><i class="fa-solid fa-tree"></i>Forest</a
-					>
-				</div>
-				<div class="nav__box">
+				<div class="nav__menu">
 					<a class="nav__link" href="#header">Home</a>
 
 					<a class="nav__link" href="#about-us">O nas</a>
 
 					<a class="nav__link" href="#offer">Oferta</a>
 
-					<a class="nav__link" href="#">Kontakt</a>
+					<a class="nav__link" href="./contact.html">Kontakt</a>
+				</div>
+			</div>
+
+			<div class="nav__desktop">
+				<div class="nav__container wrapper">
+				<div class="nav__box">
+						<a class="nav__logo" href="#"
+							><i class="fa-solid fa-tree"></i>Forest</a
+						>
+					</div>
+					<div class="nav__box">
+						<a class="nav__link nav-link" href="#header">Home</a>
+
+						<a class="nav__link nav-link" href="#about-us">O nas</a>
+
+						<a class="nav__link nav-link" href="#offer">Oferta</a>
+
+						<a class="nav__link nav-link" href="./contact.html">Kontakt</a>
+					</div>
+				</div>
 				</div>
 			</div>
 		</nav>
 
-		<header class="header ">
-			<div class="header__shadow"></div>
+		<header id="header" class="header">
+			<div class="hero-img full-poss">
+				<div class="hero-img__shadow full-poss"></div>
+				<div class="hero-img__box wrapper section-padding full-poss">
+					<div class="hero-img__name">forest group</div>
+					<h1 class="hero-img__heading">
+						Najpiękniejszy park w Twojej okolicy!
+					</h1>
+				</div>
+			</div>
 		</header>
+
+		<main class="main">
+			<section id="about-us" class="wrapper about-us section-padding">
+				<h2 class="about-us__heading section-heading">o nas</h2>
+				<div class="about-us__box">
+					<h3 class="about-us__name">Niezapomniane przygody</h3>
+					<p class="section__text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+						atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+						dolores iste quisquam voluptatem adipisci, minima exercitationem
+						vero suscipit nam. Maiores!
+					</p>
+				</div>
+				<img
+					class="about-us__img"
+					src="./dist/img/waters-small.jpg"
+					alt="Photo of rock on the lake"
+				/>
+			</section>
+
+			<section id="invite" class="invite">
+				<div class="invite__hero-img hero-img full-poss">
+					<div class="hero-img__shadow full-poss"></div>
+					<h4 class="invite__heading">Przygoda dla całej rodziny</h4>
+				</div>
+			</section>
+
+			<section id="offer" class="offer wrapper section-padding">
+				<h2 class="section-heading">oferta</h2>
+				<p class="section__text">Wybierz jedną z naszych wspaniałych ofert!</p>
+
+				<div class="cards-box full-poss">
+					<div class="card">
+						<h5 class="card__name">demo</h5>
+						<h6 class="card__price">$0</h6>
+						<p class="card__option">opcja w pakiecie</p>
+						<p class="card__option">opcja w pakiecie</p>
+						<p class="card__option card__option--off">opcja poza pakietem</p>
+						<p class="card__option card__option--off">opcja poza pakietem</p>
+						<p class="card__option card__option--off">opcja poza pakietem</p>
+						<button class="card__btn">wybierz</button>
+					</div>
+					
+					<div class="card">
+						<h5 class="card__name">standard</h5>
+						<h6 class="card__price">$99</h6>
+						<p class="card__option">opcja w pakiecie</p>
+						<p class="card__option">opcja w pakiecie</p>
+						<p class="card__option">opcja w pakiecie</p>
+						<p class="card__option card__option--off">opcja poza pakietem</p>
+						<p class="card__option card__option--off">opcja poza pakietem</p>
+						<button class="card__btn">wybierz</button>	
+					</div>
+					<div class="card">
+						<h5 class="card__name">premiom</h5>
+						<h6 class="card__price">$299</h6>
+						<p class="card__option">opcja w pakiecie</p>
+						<p class="card__option">opcja w pakiecie</p>
+						<p class="card__option">opcja w pakiecie</p>
+						<p class="card__option">opcja w pakiecie</p>
+						<p class="card__option">opcja w pakiecie</p>
+						<button class="card__btn">wybierz</button>	
+					</div>
+				</div>
+				<a href="./offer.html" class="offer__more-btn">Zobacz szczegóły naszej oferty</a>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container wrapper">
+				<div class="footer__box">
+					<a href="index.html" class="footer__logo"><i class="fa-solid fa-tree"></i>Footer</a>
+				</div>
+
+				<div class="footer__box">
+					<h6 class="footer__name">O nas</h6>
+					<a class="footer__link" href="">historia</a>
+					<a class="footer__link" href="">parki</a>
+					<a class="footer__link" href="">opinie</a>
+				</div>
+
+				<div class="footer__box">
+					<h6 class="footer__name">Nasza firma</h6>
+					<a class="footer__link" href="">praca</a>
+					<a class="footer__link" href="">kadry</a>
+					<a class="footer__link" href="">zarząd</a>
+				</div>
+
+				<div class="footer__box">
+					<h6 class="footer__name">Dokumenty</h6>
+					<a class="footer__link" href="">wnioski</a>
+					<a class="footer__link" href="">rezerwacje</a>
+				</div>
+
+			</div>
+			<hr class="footer__line">
+			<p class="footer__bottom"> &copy; <span class="footer__year"></span> Forest Group Company Ltd.</p>
+		</footer>
 
 		<script src="./src/js/main.js"></script>
 	</body>

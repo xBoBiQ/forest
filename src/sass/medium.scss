@@ -1,0 +1,49 @@
+@import "./colors.scss";
+
+@media (min-width: 768px) {
+	// .nav {
+	// 	&__logo {
+	// 		padding: 0 1.4rem;
+	// 	}
+	// }
+
+	.header {
+		margin-top: 7.26rem;
+	}
+
+	.about-us {
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			"heading heading"
+			"img box";
+
+		&__heading {
+			grid-area: heading;
+		}
+
+		&__box {
+			align-self: start;
+			grid-area: box;
+		}
+
+		&__img {
+			grid-area: img;
+		}
+	}
+
+	.invite__heading {
+		padding: 1em 3em;
+	}
+
+	.footer {
+		&__container {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		&__logo {
+			font-size: 4.3rem;
+		}
+
+		
+	}
+}

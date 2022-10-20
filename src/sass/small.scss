@@ -1,0 +1,9 @@
+@import "./colors.scss";
+
+@media (min-width: 576px) {
+	.footer {
+        &__container {
+            grid-template-columns: 1fr 1fr;
+        }    
+	}
+}
